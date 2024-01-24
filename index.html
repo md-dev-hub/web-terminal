@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminal Simulator</title>
+  <!-- Include jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #2d2d2d;
+      color: #00ff00;
+      overflow: hidden;
+    }
+
+    #terminal {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #input-section {
+      flex: 1;
+      padding: 10px;
+      border-bottom: 1px solid #00ff00;
+    }
+
+    #output-section {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+    }
+
+    #input {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      background-color: #2d2d2d;
+      color: #00ff00;
+      border: none;
+      outline: none;
+    }
+
+    #output {
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #2d2d2d;
+      color: #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <div id="terminal">
+    <div id="input-section">
+      <textarea id="input" placeholder="Type your commands here..."></textarea>
+    </div>
+    <div id="output-section">
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+    <!-- the script to edit to add terminal input interpretation -->
+    <script src="terminal.js"></script>
+    <!-- the script realizes the terminal emulation -->
+    <script src="engine.js"></script>
+</body>
+</html>
