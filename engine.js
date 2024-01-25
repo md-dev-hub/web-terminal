@@ -34,13 +34,13 @@ $(document).ready(function () {
       function processCommand(command) {
         commandHistory.unshift(command);
         // Simulate command processing here
-        let outputSection = document.getElementById('output');
+        let outputArea = document.getElementById('output');
         // outputSection.textContent += '> ' + command + '\nOutput: Command executed successfully\n\n';
 
         let response = evaluateCommand(command);
 
-        outputSection.textContent += '> ' + command + '\n' + response + '\n\n';
-        outputSection.scrollTop = outputSection.scrollHeight;
+        outputArea.textContent += '> ' + command + '\n' + response + '\n\n';
+        document.getElementById('output-section').scrollTop = 999999;
       }
 });
 
