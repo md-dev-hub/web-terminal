@@ -71,8 +71,10 @@ If you would like to contribute to this project, please follow the [Contributing
 # License
 This project is licensed under the [MIT License](https://github.com/md-dev-hub/web-terminal/tree/main?tab=MIT-1-ov-file#readme).
 
-[comment]: # # Contact
-[comment]: # For any questions, feedback, or issues, feel free to contact us at [your-email@example.com]().
+<!-- 
+# Contact
+# For any questions, feedback, or issues, feel free to contact us at [your-email@example.com]().
+ -->
 
 # Version 1.0.0 (yyyy-mm-dd)
 - Initial release of the Web Terminal Emulator.
