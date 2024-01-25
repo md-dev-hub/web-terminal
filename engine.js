@@ -39,7 +39,7 @@ $(document).ready(function () {
 
         let response = evaluateCommand(command);
 
-        outputSection.textContent += '> ' + response + '\n';
+        outputSection.textContent += '> ' + command + '\n' + response + '\n\n';
         outputSection.scrollTop = outputSection.scrollHeight;
       }
 });
