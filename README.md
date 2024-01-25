@@ -1,6 +1,7 @@
 # Web Terminal Emulator
 
 A simple web-based terminal emulator engine that allows users to enter commands, parse them, and execute custom command logics.
+![image](https://github.com/md-dev-hub/web-terminal/assets/79063001/bd6ad763-1abe-4e47-b9c4-4581f4babd6c)
 
 ## Features
 
